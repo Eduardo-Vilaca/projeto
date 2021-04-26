@@ -8,6 +8,8 @@ for(let index =0;index<alunos2P.length;index++)
     const aluno = alunos2p[index];
     //Criar o <li>
     let liAlunos = documento.createElement("li");
+    // adicionar o nome do aluno ao <li>
+    liAlunos.innerText=aluno;
 
     //Adicional o <li> ao <ul>
      uAlunos.append(liAlunos);
