@@ -10,5 +10,5 @@ for(let index =0;index<alunos2P.length;index++)
     let liAlunos = documento.createElement("li");
 
     //Adicional o <li> ao <ul>
-    uAlunos.append(liAlunos);
+     uAlunos.append(liAlunos);
 }
