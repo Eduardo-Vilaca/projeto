@@ -38,7 +38,8 @@ for(let index=0;index<disciplinas2P.length;index++)
 
     if(index > 2) {
         writetr2.append(writetd);
-    }else{
+    }
+    else {
 
         writetr.append(writetd);
     }
