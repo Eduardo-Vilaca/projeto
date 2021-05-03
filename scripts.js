@@ -32,6 +32,7 @@ let writetr2 = document.createElement("tr");
 
 for(let index=0;index<disciplinas2P.length;index++)
 {
+
     const disciplina = disciplinas2P[index];
     let writetd = document.createElement("td");
     writetd.innerText=disciplina;
